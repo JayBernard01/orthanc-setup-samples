@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyorthanc-ohif"
+version = "0.1.0"
+description = "integration of pyorthanc, ohif and orthanc"
+authors = ["Jérémie Bernard <jeremie.bernard.1@ulaval.ca>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyorthanc = "^1.16.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
